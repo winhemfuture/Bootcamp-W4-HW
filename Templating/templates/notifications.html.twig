@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Challange!</title>
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('css/styles.css') }}" >
+        {% endblock %}
+        
+        
+    </head>
+    <body>
+       <h1>Hosgeldin kerem</h1>
+        <div id="liste">
+            <img src="{{ asset('images/kagit.png') }}" id="kagit" width="300" height="300" data-id="0">
+            <img src="{{ asset('images/makas.png') }}" id="makas" width="300" height="300" data-id="1">
+            <img src="{{ asset('images/tas.png') }}" id="tas" width="300" height="300" data-id="2">
+        </div> 
+        <div id="pc-sonuc">
+                    <img src="" id="pc-secim" width="300" height="300" alt="pc seçimi">
+                </div>
+            <div id="sonuc">
+    
+        </div> 
+         
+        {% block javascripts %}
+            <script src="{{ asset('scripts/script.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>
+
+

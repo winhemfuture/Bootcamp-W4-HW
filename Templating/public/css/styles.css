@@ -1,0 +1,24 @@
+h1{
+  text-align: center;
+}
+body{
+  background: #81453f;
+  }
+  #liste img{
+  padding:5px;
+  border:1px #232333 solid;
+   
+  }
+  #sonuc{
+  float:left;
+  width: 260px;
+  height: 260px;
+  font-size:2em;
+  padding:20px;
+  background: #f1c40f;
+   
+  }
+  #pc-sonuc{
+  float:left;
+   
+  }
